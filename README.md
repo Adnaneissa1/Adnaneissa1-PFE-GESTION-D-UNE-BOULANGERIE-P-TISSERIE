@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # PFE-GESTION-D-UNE-BOULANGERIE-P-TISSERIE
 "Projet Fin d'Étude: Site Web de Gestion de Pâtisserie"
 =======
@@ -69,3 +70,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 >>>>>>> c3471e1 (partie back-end)
+=======
+# PFE-GESTION-D-UNE-BOULANGERIE-P-TISSERIE
+"Projet Fin d'Étude: Site Web de Gestion de Pâtisserie"
+>>>>>>> 037d5180059adb7174877c6ba1e3046f678ec6d3
