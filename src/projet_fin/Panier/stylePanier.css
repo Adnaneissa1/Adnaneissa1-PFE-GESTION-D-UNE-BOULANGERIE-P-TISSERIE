@@ -1,0 +1,79 @@
+.panier_d{
+    text-align: center;
+    padding: 100px;
+    padding-top: 200px;
+    
+}
+.panier_d h1{
+    font-style: italic;
+    font-weight: 900;
+    font-weight:unset;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    padding-bottom: 25px;
+}
+
+.panier_dis{
+    display: flex;
+}
+.tbpanier h1{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight:unset;
+    padding-right:120px;
+}
+.tbpanier{
+    margin:60px;
+
+}
+.titre-table-panier{
+    justify-content: space-between;
+    width: 80%;
+    padding-left: 120px;
+}
+.titre-table-panier h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: unset;
+    font-size: 40px;
+}
+.cardpanier {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS for the facteur image */
+.facteur-img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* CSS for the text */
+.textpanier {
+    font-size: 18px;
+    color: #333;
+}
+
+.text_facteur{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: initial;
+    font-size: 25px;
+}
+.carde :hover{
+    top: 100%;
+    box-shadow: 0 0 20px grey;
+
+}
+.text_span_fact{
+    color: black;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}

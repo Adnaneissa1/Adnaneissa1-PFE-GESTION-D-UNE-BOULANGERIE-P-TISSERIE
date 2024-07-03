@@ -1,0 +1,35 @@
+.text-res{
+    text-align: center;
+    /* padding: 120px; */
+    padding-top: 150px;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:unset;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.input-search{
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 15px;
+}
+.info_produitt{
+    border: 1px solid white;
+    padding: 20px;
+    
+    /* margin: 70px; */
+    border-radius: 20px;
+    margin: 30px;
+}
+.produitt{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /* width: 100%; */
+    /* margin: 120px; */
+    display: flex;
+    justify-content: center;
+}
+

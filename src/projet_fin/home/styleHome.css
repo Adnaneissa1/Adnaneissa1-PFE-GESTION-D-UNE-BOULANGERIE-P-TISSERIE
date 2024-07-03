@@ -1,0 +1,151 @@
+.home{
+    padding: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img{
+    width: 450px;
+    border-radius: 300px 300px 0px 0px;
+}
+.img3{
+    width: 400px;
+    height: 450px;
+
+    border-radius: 300px 300px 0px 0px;
+}
+.bg_img{
+    padding: 14%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../img/img5.jpg');
+    background-size:80% auto;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+.bg_imgh1{
+    background-image: url('../img/img6.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    border-radius: 50px;
+
+
+}
+.bg_imgh2{
+    background-image: url('../img/img7.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    width: 30%;
+}
+.bg_imgh3{
+    background-image: url('../img/img8.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    width: 30%;
+}
+.format_card{
+    padding: 100px;
+
+}
+.content_img{
+    color: black;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    word-spacing: 10px;
+    letter-spacing: 0.8px;
+    
+}
+.yass{
+    display: flex;
+}
+@media screen and (max-width:1500px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+    .yass{
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+    }
+    .bg_img{
+        display: flex;
+        flex-direction: column;
+        width: 1500px;
+        
+    }
+    .home_parent{
+        width: 100%;
+        overflow: hidden;
+    }
+
+}
+
+
+
+/* Ajoutez une nouvelle classe pour l'animation fadeIn */
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+/* Animation slideInLeft */
+.slideInLeft {
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Animation slideInRight */
+.slideInRight {
+    animation-name: slideInRight;
+    animation-duration: 1s;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+/* Transition pour l'image */
+.image-container {
+    transition: background-image 1s ease;
+}

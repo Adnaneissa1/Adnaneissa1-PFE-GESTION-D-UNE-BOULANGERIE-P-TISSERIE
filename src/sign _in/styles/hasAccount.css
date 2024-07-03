@@ -1,0 +1,124 @@
+.Apphas {
+  /* margin-top: 1150px; */
+}
+
+.slider-radioha {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  margin-top: 50px; 
+  overflow: auto;  
+  height: calc(100% - 50px); 
+}
+
+.has-accountha {
+  position: fixed;
+  right: 0%;
+  top: 100px;
+  top: 0;
+  width: 50%; 
+  height: 100px; 
+  z-index: 1;
+  margin-top: 90px;
+}
+/* .sin{
+  margin-top: 150px;
+} */
+
+.has-accountha div {
+  height: 50px;
+  background-color: rgb(93, 185, 185);
+  display: flex;
+  justify-content: center;
+}
+
+.has-accountha input[type="radio"] {
+  display: none; 
+}
+
+.has-accountha label {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Inherits the font family from the parent */
+  padding: 15px 15px;
+  margin-left: 5px ;
+  cursor: pointer; 
+  position: relative; 
+}
+
+.has-accountha label:hover {
+  text-decoration: underline; 
+}
+.hassig{
+  /* display: flex; */
+  /* justify-content: space-around; */
+}
+
+.has-accountha input[type="radio"] + label::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+  position: absolute;
+  left: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.has-accountha input[type="radio"]:checked + label::before {
+  background-color: black; 
+}
+
+.image-sectionha {
+  /* position: fixed; */
+  /* top: 0; */
+  /* left: 0; */
+  margin-top: 90px;
+  width: 50%;
+  height: 100vh;
+  background-image: url('../assets/Bon-Appetit-Image.webp');
+  background-position: center;
+  background-size: cover;
+}
+
+.accessor {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .image-sectionha {
+    width: 100%; 
+    height: 200px;
+    margin: 100px 0;
+    background-size: contain;
+  }
+
+  .has-accountha {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 50px; 
+    z-index: 1;;
+  }
+
+  .has-accountha div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px; 
+  } 
+
+  .has-accountha label {
+    margin: 0;
+  }
+
+  .Appha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+  }
+}
+

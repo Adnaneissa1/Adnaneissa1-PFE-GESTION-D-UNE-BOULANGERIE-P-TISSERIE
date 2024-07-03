@@ -1,0 +1,125 @@
+/* category.css */
+
+#main {
+  margin-top: 60px;
+  padding: 20px 30px;
+  transition: all 0.3s;
+  background-color: #DFECF4;
+}
+
+@media screen and (max-width: 1199px) {
+  #main {
+    padding: 20px;
+  }
+}
+
+
+.category-list-container {
+  background-color: #f5f5f5; /* Light gray background */
+  padding: 2rem; /* Add some padding */
+}
+
+h2 {
+  font-family: Arial, sans-serif; /* Choose a clean, modern font */
+  font-weight: bold; /* Make headings stand out */
+  margin-bottom: 1.5rem; /* Add some space after the heading */
+}
+
+.category-list {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+.list-group-item {
+  border: none; /* Remove default borders */
+  border-radius: 4px; /* Add rounded corners */
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+  margin-bottom: 1rem; /* Add space between items */
+  transition: all 0.2s ease-in-out; /* Smooth transitions */
+}
+
+.list-group-item:hover {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+}
+
+.btn {
+  border-radius: 4px; /* Rounded corners for buttons */
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Modern primary color (blue) */
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0067cc; /* Darker blue on hover */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Modern error color (red) */
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c8233c; /* Darker red on hover */
+}
+
+/* category.css */
+
+.add-category-link {
+  color: #007bff; /* Modern primary color (blue) */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make it stand out */
+}
+
+.add-category-link:hover {
+  color: #0067cc; /* Darker blue on hover */
+}
+
+
+/* category.css */
+
+.add-category-container {
+  background-color: #f5f5f5; /* Light gray background */
+  padding: 2rem; /* Add some padding */
+}
+
+.h2Cat {
+  font-family: Arial, sans-serif; /* Clean, modern font */
+  font-weight: bold; /* Make headings stand out */
+  margin-bottom: 1.5rem; /* Add space after heading */
+}
+
+.formCat {
+  display: flex; /* Arrange labels and inputs horizontally */
+  flex-direction: column; /* Stack labels and inputs vertically */
+  gap: 1rem; /* Add space between form elements */
+}
+
+.lbCat {
+  display: flex; /* Align label text and input side-by-side */
+  align-items: center;
+}
+
+.inpCat[type="text"] {
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  flex: 1; /* Make inputs fill available space */
+}
+
+.btnCat[type="submit"] {
+  background-color: #007bff; /* Modern primary color (blue) */
+  color: #fff; /* White text */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 0.75rem 1.5rem; /* Adjust padding */
+  font-weight: bold;
+  cursor: pointer; /* Indicate clickable behavior */
+  margin-top: 1rem; /* Add space after form elements */
+}
+
+.btnCat[type="submit"]:hover {
+  background-color: #0067cc; /* Darker blue on hover */
+}

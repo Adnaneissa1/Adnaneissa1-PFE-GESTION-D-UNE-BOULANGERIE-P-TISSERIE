@@ -1,0 +1,32 @@
+.about{
+    padding: 40px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+}
+.about p{
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    font-size: larger;
+}
+.about_img{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+
+}
+.img_about{
+    /* width: 50%; */
+    border-radius: 50%;
+}
+@media screen and (max-width:1500px){
+    .about_img{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .img_about{
+        width: 100%;
+    }
+}

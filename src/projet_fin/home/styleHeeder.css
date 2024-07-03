@@ -1,0 +1,40 @@
+.header1{
+    display: flex;
+    justify-content: space-between;
+    font-family:'Times New Roman', Times, serif;
+    padding: 30px;
+    box-shadow: 0 0 42px grey;
+}
+.header2{
+    display: flex;
+    justify-content: space-evenly;
+    font-family:'Times New Roman', Times, serif;
+    box-shadow: 0 0 42px grey;
+}
+.header_body{
+    display: flex;
+    margin: 20px;
+}
+.header3{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-family:'Times New Roman', Times, serif;
+    box-shadow: 0 0 42px grey;
+    
+}
+@media screen and (max-width:1500px){
+    .header1{
+        display: block;
+        text-align: center;
+    }
+    .header2{
+        display: block;
+        text-align: center;
+    }
+
+    .header3{
+        display: block;
+        text-align: center;
+    }
+}
